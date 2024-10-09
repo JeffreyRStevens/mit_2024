@@ -1,0 +1,3 @@
+Replicability in canine behavioral science: Lessons for conducting robust research
+
+Replicable research is a cornerstone of robust science, but practices in the behavioral sciences have resulted in less-than-optimal outcomes. Here I use research in canine behavior and cognition to illustrate ways to improve the replicability of scientific research. In particular, I explore how big team science goes beyond typical team science to generate more robust results. On the way, we'll learn about dog impulsivity, social cognition, and numerical abilities. 
