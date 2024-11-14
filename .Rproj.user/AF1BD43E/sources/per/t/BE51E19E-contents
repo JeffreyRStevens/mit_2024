@@ -1,99 +1,517 @@
 ---
 title: "Replicability in canine behavioral science"
-subtitle: "Lessons for conducting robust research"
+subtitle: "Lessons for conducting reliable research"
 author: "Jeffrey R. Stevens"
 date: ""
-institute: "Canine Cognition and Human Interaction Lab<br>University of Nebraska-Lincoln<br><code>dogcog.unl.edu</code>"
+institute: "Canine Cognition and Human Interaction Lab<br>University of Nebraska-Lincoln<br><code>dogcog.unl.edu</code><br><br><code>jeffreyrstevens.quarto.pub/mit_2024</code>"
 format: 
   revealjs:
     theme: [moon, custom.scss]
     logo: media/cchil_logo_white_N.png
     slide-number: true
-    footer: "<h2><code>jeffreyrstevens.quarto.pub/mit_2024</code></h2>"
+    # footer: "<h2><code>jeffreyrstevens.quarto.pub/mit_2024</code></h2>"
 ---
+
+
+```{r}
+library(gt)
+library(tidyverse)
+```
 
 
 
 # Canine behavioral science
 
+
 ## Why study dogs
 
+![](media/dog-evolution.jpg){.absolute top=80 left=-50 width="300" .fragment}
+![](media/dog-buttons.jpg){.absolute top=80 left=250 width="300" .fragment}
+![](media/dog_health.jpg){.absolute top=80 left=550 width="300" .fragment}
+![](media/dog-service.jpg){.absolute top=80 left=850 width="300" .fragment}
 
-## Dogs in society
+
+## Dog roles
+
+::: {.r-stack}
+<!-- ![](media/dog-military-attack.jpg){fig-align="center" width="900"} -->
+
+![](media/dog-sar.jpg){fig-align="center" width="900" .fragment}
+
+![](media/dog-military-detection4.jpg){fig-align="center" width="900" .fragment}
+
+![](media/dog-medical-detection.png){fig-align="center" width="900" .fragment}
+:::
 
 
 ## History of canine behavioral science
 
+::: {.r-stack}
+![](media/dog-pavlov.jpg){fig-align="center" width="900"}
 
-## Initial concerns
+![](media/dog-pointing.jpg){fig-align="center" width="900" .fragment}
+
+![](media/dog-fmri.jpg){fig-align="center" width="900" .fragment}
+:::
+
+
+## Challenges in canine behavioral science
+
+::: {.incremental}
+<!-- * Consistency in methods -->
+* Small sample sizes
+* Breed variation
+* Cultural variation in owners
+* Replication crisis
+
+:::
+
 
 
 # Replicating methods
 
+
+## Dog impulsivity
+
+:::{.fragment}
+![](media/dog_inhibition_chasing_pete-godfrey.png){.absolute top="8%" left="14%" height="300"}
+
+![](media/dog_inhibition_rolling_michael-oxendine.png){.absolute top="51%" left="0%" height="300"}
+
+![](media/dog_patience2_tamas-pap.png){.absolute top="51%" left="53%" height="300"}
+:::
+
+
 ## Owner perceptions of dog impulsivity
 
-## Replication of Brady et al. (2018)
+::: {.callout-tip}
+## Research Question
 
-## Dog Impulsivity Assesment Scale (DIAS)
+<!-- ::: {.fragment} -->
 
-## Spatial impulsivity
+::: {style="font-size: 40px"}
+Do owner perceptions of dog impulsivity match impulsivity in a behavioral task?
+:::
+<!-- ::: -->
+:::
 
-## Results
+::: {.fragment}
+Based on and replicated [Brady et al., 2018](https://doi.org/10.1016/j.applanim.2018.01.003)
+:::
 
-## Meta-analysis
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring owner perceptions
+
+### Dog Impulsivity Assessment Scale (DIAS)
+
+::: {.fragment}
+ * Behavioral regulation 
+ * Aggression 
+ * Responsiveness
+
+[Wright et al., 2011](https://doi.org/10.46867/ijcp.2011.24.02.03)
+:::
+
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Measuring spatial impulsivity
+
+![](media/dog_spatial_apparatus.jpg){height="550" fig-align="center"}
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Original results
+
+::: {.r-stack}
+![](media/bradyetal2018_0.png){fig-align="center" height="550"}
+
+![](media/bradyetal2018_3_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[Brady et al. 2018, _Applied Anim Behav Sci_](https://doi.org/10.1016/j.applanim.2018.01.003)
+:::
+
+
+## Our results
+
+::: {.r-stack}
+![](media/dog_spatial_results_blank.png){height="550" fig-align="center"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 515px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550" fig-align="center"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 515px"}
+:::
+
+![](media/dog_spatial_results.png){.fragment height="550" fig-align="center"}
+
+:::
+
+::: {.source}
+[Stevens et al. 2022, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.09.03.02.2022)
+:::
+
+
+## Study conclusions
+
+::: {.incremental}
+* Owners not good at predicting dog impulsivity
+
+* Did not replicate Brady et al., 2018
+
+  - British know their dogs better than Americans
+  <!-- - Poor attempt at replication -->
+  - Different dog populations (breeds, neuter status)
+  - Different owner populations
+  - Less than robust methods in original study
+
+:::
+
 
 ## Implications
+
+::: {.incremental}
+* Increase sample sizes
+* Conduct more replications (within and between labs)
+* Increase robustness and reproducibility of analyses
+* Post data publicly
+* Provide more and consistent info on owners
+* Consider populations of owners and dogs
+
+:::
+
 
 
 # Big team science
 
+
 ## What is big team science?
+
+> Collaborations wherein a comparatively large number of researchers pool their intellectual and/or material resources to pursue a common goal
+
+---Baumgartner et al., 2023 _Royal Society Open Science_.
 
 
 ## Why big team science?
 
+* Larger sample sizes
+* Less effort per research site
+* Consensus in methods design
+* Diverse subject pool
+* Many analysts involved in analysis
+<!-- * Shared labor in data validation and code checking -->
+
 
 ## ManyDogs Project
+
+International research consortium of scientists with shared interest in canine behavior and cognition
+
+![](media/manydogs_banner.jpg){fig-align="center" height="300"}
+
+
+## ManyDogs Project Aims
+
+::: {.incremental}
+1. Attempt to replicate important studies
+2. Investigate moderators that require large sample sizes
+3. Develop consensus on methodological best practices
+4. Investigate cultural differences
+5. Set the bar for replicability of studies
+:::
 
 
 ## ManyDogs 1
 
+::: {.callout-tip}
+## Research Question
+
+::: {style="font-size: 40px"}
+::: {.fragment}
+Do dogs treat human pointing as communicative cues?
+:::
+:::
+:::
+
+::: {.fragment}
+![](media/dog-pointing.jpg){fig-align="center" width="550"}
+:::
+
 
 ## Results
 
+::: {.r-stack}
+![](media/md1_overall_accuracy_0.png){fig-align="center" height="550"}
+
+![](media/md1_overall_accuracy_2.png){fig-align="center" height="550" .fragment}
+
+![](media/md1_overall_accuracy_4_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Site effects
+
+::: {.r-stack}
+![](media/md1_site_accuracy_1.png){fig-align="center" height="550"}
+
+![](media/md1_site_accuracy_2_last.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Site differences
+
+![](media/md1_owner_ages.png){fig-align="center" height="550"}
+
+::: {.source}
+[ManyDogs Project et al. 2023, _Animal Behavior & Cognition_](https://doi.org/10.26451/abc.10.03.03.2023)
+:::
+
+
+## Study conclusions
+
+::: {.incremental}
+* Dogs were slightly better than chance but no difference between conditions
+
+* Consistent findings across sites
+
+* Results do not match robust literature showing point following
+
+* Likely due to method choices
+
+<!-- * Big differences in owner age distribution -->
+
+:::
+
 
 ## Implications
+::: {.incremental}
+* Again, consider populations of owners and dogs
+* Many analysts improved analysis
+* Diverse viewpoints can bias methods
+* Consider multi-site replication
+
+:::
 
 
 
 # Replicating interpretations
 
-## Dog quantification
 
-## Weber's Law
+## Dog quantity preferences
+
+::: {.callout-tip}
+## Research Question
+
+::: {style="font-size: 40px"}
+::: {.fragment}
+What numerical factors contribute to dog quantity preferences?
+:::
+:::
+:::
+
+::: {.fragment}
+![](media/preference_stim.jpg){fig-align="center" height="350"}
+:::
 
 
-## Numerical ratio
+## What drives preference? 
+
+### Numerical ratio (small / large) or difference (large - small)
+
+:::{.r-stack}
+
+:::{.fragment}
+
+```{r}
+library(gt)
+ratio_pairs <- tibble(Small = c(1, 2, 1, 2), Large = c(2, 4, 3, 6), Ratio = Small / Large, Difference = Large - Small)
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2)
+```
+:::
+
+:::{.fragment}
+```{r}
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Ratio == 0.5,
+             palette = "#425875") |> 
+  data_color(rows = Ratio == 1/3,
+             palette = "#718298")
+```
+:::
+
+:::{.fragment}
+```{r}
+ratio_pairs |> 
+  gt() |> 
+  tab_options(column_labels.padding.horizontal = 50, table.font.size = "120%", table.font.names = "Arial", column_labels.font.weight = "bold") |>   
+  cols_align("center") |> 
+  fmt_number(columns = Ratio, decimals = 2) |> 
+  data_color(rows = Difference == 2,
+             palette = "#425875") |> 
+  data_color(rows = Difference == 1,
+             palette = "#718298") |> 
+  data_color(rows = Difference == 4,
+             palette = "steelblue4")
+
+```
+:::
+:::
 
 
-## Numerical difference
+## Set-up
+
+![](media/number_setup.png)
+
+::: {.source}
+[deBoer et al. PsyArXiv](https://doi.org/10.31234/osf.io/rn8gq)
+:::
 
 
 ## Results
 
-## Previous studies
+::: {.r-stack}
+![](media/hypothesis1.1.png){fig-align="center" height="550"}
+
+::: {data-id="box1" style="background: #132E53; width: 500px; height: 600px; margin: 10px; position: absolute; top: 50px; left: 590px"}
+:::
+
+![](media/hypothesis1.1.png){.fragment fig-align="center" height="550"}
+
+![](media/hypothesis1.2.png){fig-align="center" height="550" .fragment}
+:::
+
+::: {.source}
+[deBoer et al. PsyArXiv](https://doi.org/10.31234/osf.io/rn8gq)
+:::
+
+
+## Previous work on difference and ratio
+
+| Study                                          | Ratio effects | Difference effects |
+|-------------------------------------|:-------------------:|:------------------------:|
+| Ward &amp; Smuts 2007                          |         Yes         |            Yes           |
+| Baker et al. 2012                              |         Yes         |        Not tested        |
+| Miletto Petrazzini &amp; Wynn 2016 |         Yes         |        Not tested        |
+| Aulet et al. 2019 |         Yes         |        Not tested        |
+| Rivas-Blanco et al. 2020                       |         Yes         |        Not tested        |
+
+
+## Study conclusions
+
+::: {.incremental}
+* Both difference and ratio account for numerical preference when analyzed separately
+
+* But only difference accounts when analyzed together
+
+* Revisit ubiquity of ratio effects
+
+* Include difference in models and design studies to test difference effects 
+
+:::
+
 
 ## Implications
+::: {.incremental}
+* Question dogma
+* Be open to alternative factors at play
+* Use strong inference and triangulation
+* Analyze other people's data
 
-# Conclusion
-
-
-## Take home message
-
-
-
-## Thank you
+:::
 
 
+
+# Lessons Learned
+
+
+## Reliable science
+
+::: {.fragment}
+![](media/replicable.jpeg){.absolute height=250 top="10%" left="5%"}
+
+::: {.absolute height=250 top="45%" left="13%"}
+Replicable 
+:::
+:::
+
+::: {.fragment}
+![](media/reproducibility_sm.jpg){.absolute height=250 width=350 top="10%" left="55%"}
+
+::: {.absolute height=250 top="45%" left="61%"}
+Reproducible
+:::
+:::
+
+::: {.fragment}
+![](media/global_network_sm.jpeg){.absolute height=250 top="55%" left="5%"}
+
+::: {.absolute height=250 top="90%" left="15%"}
+Robust 
+:::
+:::
+
+::: {.fragment}
+![](media/open_access.jpeg){.absolute height=250 width=350 top="55%" left="55%"}
+
+::: {.absolute height=250 top="90%" left="67%"}
+Open
+:::
+:::
+
+
+## Thank you!
+
+![Hunter DeBoer](media/hunter_deboer.jpg){.absolute top=80 left=-50 width="200"}
+![Hannah Fitzpatrick](media/hannah_fitzpatrick.jpg){.absolute top=80 left=175 width="200"}
+![Anwyn Gatesy-Davis](media/anwyn_gatesy-davis.jpg){.absolute top=80 left=400 width="200"}
+![London Wolff](media/london_wolff.jpg){.absolute top=80 left=650 width="200" height="200"}
+![ManyDogs Project](media/manydogs_square2.jpg){.absolute top=80 left=875  width="200" height="200"}
+
+[Hunter <br>DeBoer]{.absolute top=300 left=-50}
+[Hannah <br>Fitzpatrick]{.absolute top=300 left=175}
+[Anwyn <br>Gatesy-Davis]{.absolute top=300 left=400}
+[London <br>Wolff]{.absolute top=300 left=650}
+[ManyDogs Project]{.absolute top=300 left=875}
+
+:::{.fragment}
+![](media/nsf_logo.jpg){.absolute top=425 left=100 width="200" height="200"}
+
+
+[`jstevens5@unl.edu`]{.absolute top=450 left=650}
+[`dogcog.unl.edu`]{.absolute top=500 left=650}
+[`@unl_cchil`]{.absolute top=550 left=650}
+[`r icons::icon_style(icons::fontawesome("envelope"), fill = "white")`]{.absolute top=455 left=600}
+[`r icons::icon_style(icons::fontawesome("home"), fill = "white")`]{.absolute top=505 left=598}
+[`r icons::icon_style(icons::fontawesome("instagram"), fill = "white")`]{.absolute top=555 left=603}
+:::
 
 

@@ -1,9 +1,9 @@
 {
     "id": "BE51E19E",
-    "path": "/media/jstevens/data/jstevens/OneDrive/active_sync/projects/mit_lincoln_2024/mit_2024.qmd",
+    "path": "~/projects/mit_lincoln_2024/mit_2024.qmd",
     "project_path": "mit_2024.qmd",
     "type": "quarto_markdown",
-    "hash": "353143000",
+    "hash": "3673283387",
     "contents": "",
     "dirty": false,
     "created": 1728414195509.0,
@@ -13,15 +13,15 @@
         "tempName": "Untitled1",
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "2,49",
-        "scrollLine": "0"
+        "cursorPosition": "410,0",
+        "scrollLine": "391"
     },
     "folds": "",
-    "lastKnownWriteTime": 1728497677,
+    "lastKnownWriteTime": 1731424878,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1728497677782,
+    "last_content_update": 1731424878225,
     "read_only": false,
     "read_only_alternatives": []
 }

@@ -1,0 +1,4 @@
+- source: mit_2024.qmd
+  quarto-pub:
+    - id: f42c9cd3-90d6-4498-9e2f-1e3a4765a725
+      url: https://jeffreyrstevens.quarto.pub/mit_2024
